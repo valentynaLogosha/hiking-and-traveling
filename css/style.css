@@ -2,7 +2,27 @@ body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   color: var(--main-color);
-  background: var(--main-color);
+  background: linear-gradient(
+    330deg,
+    rgba(11, 29, 38, 0) 31.06%,
+    #0b1d26 108.93%
+  );
+}
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 16px;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+
+.header-container {
+  padding: 64px 80px;
 }
 .header-description {
   color: #fff;
@@ -13,6 +33,24 @@ body {
   font-weight: 700;
   line-height: normal;
 }
+.header-navigation-logo {
+  color: var(--Wei, #fff);
+  font-family: Chronicle Display;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.32px;
+  text-transform: capitalize;
+}
+
+.hiking-guide {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
 .account-discription {
   color: #fff;
   font-family: Gilroy;
@@ -20,4 +58,44 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+.hero-title {
+  color: var(--Wei, #fff);
+  font-family: Chronicle Display;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100px; /* 113.636% */
+  text-transform: capitalize;
+}
+.main-title {
+  color: var(--Accent, #fbd784);
+  font-family: Gilroy;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}
+
+.about-hiking {
+  width: 1462px;
+  height: 720px;
+}
+.title-parts {
+  color: #fff;
+  font-family: Chronicle Display;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.dicription-parts {
+  color: #fff;
+  font-family: Gilroy;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 177.778% */
 }

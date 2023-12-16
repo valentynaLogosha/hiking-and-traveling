@@ -5,16 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header>
       <div class="container header-container">
-        <img src="./" alt="logo" />
-        <li class="header-description">Equipment</li>
-        <li class="header-description">About us</li>
-        <li class="header-description">Blog</li>
-        <a class="menu-soc-link" href="/"></a>
-        <p class="account-discription">Account</p>
+        <nav class="header-navigation">
+          <a class="header-navigation-logo link" href="./index.html">
+            <span class="web link">MNTN</span></a
+          >
+          <li class="header-description list">Equipment</li>
+          <li class="header-description list">About us</li>
+          <li class="header-description list">Blog</li>
+          <svg class="logo-icon" width="64" height="64">
+            <use href="./images/icons.svg#icon-antenna-1"></use>
+          </svg>
+          <p class="account-discription">Account</p>
+        </nav>
       </div>
     </header>
     <main>
@@ -23,7 +30,7 @@
         <h2 class="hero-title">Be prepared for the Mountains and beyond!</h2>
       </section>
 
-      <section class="about-hiking">
+      <section class="about-hiking container">
         <div class="get-started">
           <h1 class="main-title">GEt Started</h1>
           <h3 class="title-parts">What level of hiker are you?</h3>
